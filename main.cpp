@@ -1,7 +1,14 @@
 #include <iostream>
+#include <vector>
+
+#include "Game.hpp"
+
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "Hello, World!" << std::endl;
+    Game game;
+    game.start();
+
     return 0;
 }
+
