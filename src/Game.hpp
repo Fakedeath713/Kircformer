@@ -11,7 +11,7 @@ public:
 	void start();
 
 private:
-	Player m_player;
+	Player* m_player;
 	std::vector<Platform> m_platforms;
 };
 
